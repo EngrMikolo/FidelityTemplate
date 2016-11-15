@@ -1,0 +1,541 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Playball" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Ek+Mukta" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Mr+De+Haviland" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Telex" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>My template</title>
+    </head>
+
+    <body style="background-color: #7f7f7f">
+        <style>
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*-----------------------------------------------------
+  -----------------------------------------------------
+          Default styles
+ -----------------------------------------------------
+ -----------------------------------------------------*/
+
+
+            /*containing float*/
+           .group:before,
+           .group:after {
+                 content: "";
+                 display: table;
+            }
+            .group:after {
+                 clear: both;
+                    }
+            .group {
+             *zoom: 1;
+            }
+
+            .mar-10{
+              margin-top: 10px;
+            }
+            .mar-20{
+              margin-top: 10px;
+            }
+            .mar-30{
+              margin-top: 10px;
+            }
+
+            h1{
+                font-family: 'Playball', cursive;
+                color:#000066;
+            }
+
+
+            h2{
+                font-family: 'Telex', sans-serif;
+                color:#000066;
+            }
+            h3{
+                font-family: 'Ek Mukta', sans-serif;
+                color:#000066;
+            }
+
+           .right-side{
+            float: right;
+           }
+           .left-side{
+            float: left;
+           }
+
+           header, footer{
+            background-color: #fff;
+            margin: auto;
+           }
+
+          .border{
+             border-bottom: 1px #000099 solid;
+           }
+
+          .curly{
+                    color:#000066;
+                    font-family: 'Mr De Haviland', cursive;
+                    outline: 0px solid transparent;
+                }
+
+
+/*-----------------------------------------------------
+  -----------------------------------------------------
+          End Default styles
+ -----------------------------------------------------
+ -----------------------------------------------------*/
+
+
+
+            @media screen and (min-width: 320px)  {
+                
+                    header, footer{
+                    width: 100%;
+                   }
+
+                   .pad-10{
+                    padding: 10px;
+                   }
+                   .pad-top-bottom-35{
+                    padding: 11px 16px;
+                   }
+                    
+               h1{
+                  font-size:38px;
+                }
+
+                h2{
+                  font-size: 17px;
+              }
+               h3{
+                  font-size: 19px;
+              }
+              .curly{
+                font-size: 35px;
+              }
+                    .logo{
+                        float:left;
+                        width: 115px;
+                    }
+
+                  .icon{
+                    width: 18px;
+                   }
+
+                  .icon-list li{
+                        display: inline-block;
+                        margin-left: 12px;
+                    }
+
+                  .icon-list{
+                        float: right;
+                        margin-right: 15px;
+                       margin-top: 20px;
+                    }
+
+                  .container {
+                            margin: auto;
+                            width: 100%;
+                        }
+
+                      .top-half {
+                           width: 100%;
+                          background-color: #eae9f0;
+                          padding: 8px 0;
+                          justify-content: center;
+                        }
+
+                        .bottom-half {
+                          width: 100%;
+                          background-color: #fff;
+                          /*padding: 8px 15px;*/
+                          justify-content: center;
+                        }
+
+                      .left-spacer{
+                            height: 30px;
+                        }
+                      .left-spacer-2{
+                            height: 60px;
+                        }
+
+                      .right-spacer{
+                            height: 30px;
+                        }
+
+                        .celebrant{
+                           margin-top: -2px;
+                            font-family: 'Merriweather Sans', sans-serif;
+                            font-size: 22px;
+                            font-style: italic;
+                            outline: 0px solid transparent;
+                        }
+                .vouchercode{
+                    font-size: 25px;
+                }
+                  small{
+                    color: #000099;
+                    font-family: 'Maven Pro', sans-serif;
+                    font-size: 1px;
+                    letter-spacing: 1px;
+                    word-spacing: 5px;
+                }
+
+                footer {
+                    text-align: center;
+                    border-top: 2px #000099 solid;
+                    padding: 10px 0;
+                    font-size: 12px;
+                    color: #00b200;
+                }
+
+        }
+
+             @media screen and (min-width: 700px)  {
+
+               header, footer{
+             width: 100%;
+           }
+
+            h1{
+                  font-size: 3em;
+              }
+            h2{
+                  font-size: 18px;
+              }
+            h3{
+                  font-size: 20px;
+              }
+              .curly{
+                font-size: 45px;
+              }
+               
+            .logo{
+                float:left;
+                width: 165px;
+            }
+
+
+           .icon{
+            width: 31px;
+           }
+
+            .icon-list li{
+                display: inline-block;
+                /*float: right;*/
+                margin-left: 12px;
+            }
+
+            .icon-list{
+                float: right;
+                margin-right: 15px;
+               margin-top: 20px;
+            }
+
+             .container {
+                    margin: auto;
+                    width: 100%;
+                  display: flex;
+                }
+
+            .left-half {
+                  background-color: #eae9f0;
+                  flex: 1;
+                  padding: 1rem;
+                  flex-direction: column;
+                  justify-content: center;
+                }
+
+                .right-half {
+                  background-color: #fff;
+                  flex: 1;
+                  padding: 1rem;
+                  justify-content: center;
+                }
+
+              .left-spacer{
+                    height: 80px;
+                }
+
+              .right-spacer{
+                    height: 30px;
+                }
+                small{
+                    color: #000099;
+                    font-family: 'Maven Pro', sans-serif;
+                    font-size: 15px;
+                    letter-spacing: 1px;
+                    word-spacing: 7px;
+                }
+
+                .celebrant{
+                  margin-top: 150px;
+                    font-family: 'Merriweather Sans', sans-serif;
+                    font-size: 25px;
+                    font-style: italic;
+                    outline: 0px solid transparent;
+                }
+                
+                .vouchercode{
+                    font-size: 25px;
+                }
+
+                footer {
+                    text-align: center;
+                    border-top: 3px #000099 solid;
+                    padding-top: 10px;
+                    padding-bottom:10px;
+                    font-size: 14px;
+                    color: #00b200;
+                }
+
+        }
+
+
+
+
+          @media screen and (min-width: 1400px) {
+
+             header, footer{
+             width: 60%;
+           }
+
+            h1{
+                  font-size: 3em;
+              }
+            h2{
+                  font-size: 20px;
+              }
+            h3{
+                  font-size: 22px;
+              }
+              .curly{
+                font-size: 45px;
+              }
+               
+            .logo{
+                float:left;
+                width: 165px;
+            }
+
+
+           .icon{
+            width: 31px;
+           }
+
+            .icon-list li{
+                display: inline-block;
+                /*float: right;*/
+                margin-left: 12px;
+            }
+
+            .icon-list{
+                float: right;
+                margin-right: 15px;
+               margin-top: 20px;
+            }
+
+             .container {
+                    margin: auto;
+                    width: 60%;
+                  display: flex;
+                }
+
+            .left-half {
+                  background-color: #eae9f0;
+                  flex: 1;
+                  padding: 1rem;
+                  flex-direction: column;
+                  justify-content: center;
+                }
+
+                .right-half {
+                  background-color: #fff;
+                  flex: 1;
+                  padding: 1rem;
+                  justify-content: center;
+                }
+
+              .left-spacer{
+                    height: 80px;
+                }
+
+              .right-spacer{
+                    height: 30px;
+                }
+                small{
+                    color: #000099;
+                    font-family: 'Maven Pro', sans-serif;
+                    font-size: 15px;
+                    letter-spacing: 1px;
+                    word-spacing: 7px;
+                }
+
+                .celebrant{
+                    margin-top: 90px;
+                    font-family: 'Merriweather Sans', sans-serif;
+                    font-size: 25px;
+                    font-style: italic;
+                    outline: 0px solid transparent;
+                }
+                
+                .vouchercode{
+                    font-size: 28px;
+                }
+
+                footer {
+                    text-align: center;
+                    border-top: 3px #000099 solid;
+                    padding-top: 10px;
+                    padding-bottom:10px;
+                    font-size: 14px;
+                    color: #00b200;
+                }
+}
+    /*@media screen and (min-width: 1400px) {}*/
+
+
+
+            
+
+
+ 
+
+
+        </style>
+
+    <!-- <div style="background-color:#7f7f7f"> -->
+            <header>
+                <div class="border group" style="height: 70px; min-width: 100%">
+                    <img class="logo" style="margin-top: 10px" src="assets/img/logo.png">
+
+                    <div class="icon-list">
+                        <ul>
+                            <a href="https://www.facebook.com/suregiftsNG" target="_blank"><li><img class="icon" src="assets/icon/facebook.svg"></li></a>
+                            <a href="https://twitter.com/suregifts_ng" target="_blank"><li><img class="icon" src="assets/icon/twitter.svg"></li></a>
+                            <a href="https://www.instagram.com/suregifts_ng" target="_blank"><li><img class="icon" src="assets/icon/instagram.svg"></li></a>
+                            <a href="https://www.linkedin.com/company/suregifts" target="_blank"><li><img class="icon" src="assets/icon/linkedin.svg"></li></a>
+                            <a href="https://plus.google.com/106137747034600392639" target="_blank"><li><img class="icon" src="assets/icon/googleplus.svg"></li></a>
+                            <a href="https://www.youtube.com/channel/UCq55TJnN8wtA5_V48zPl5zA" target="_blank"><li><img class="icon" src="assets/icon/youtube.svg"></li></a>
+                        </ul>
+                     </div>
+                </div>
+            </header>
+
+            <section class="container">
+              
+                  <div class="top-half left-half">
+                      <article style="text-align: center">
+                        <img id="LogoPlaceholder" style="display: inline-block; margin-top: 15px" width="30%" src="assets/img/Brandessence.png">
+                          <div class="left-spacer"></div>
+                        <img id="ImageFieldOne" style="display: inline-block; margin-top: 23px;" width="100%" src="assets/img/c.png">
+                        <div class="left-spacer-2"></div>
+                        <h2 id="TextFieldOne" contenteditable="true" class="celebrant" style="text-align: center">OLUSEGUN ONASANYA</h2>
+                      </article>
+                  </div>
+
+                  <div class="bottom-half right-half">
+                        <article class="pad-top-bottom-35" style="text-align: center;">
+                                  <h1>You&apos;ve received a</h1>
+                                  <h1>Gift Card&#46;</h1>
+                                  <div class="right-spacer"></div>
+                                  <div id="ImageFieldTwo" style="margin:auto; height:190px; width:70%; border-radius: 10px; background-image: url('assets/img/b.png'); background-size: cover;  background-position: center; box-shadow: 3px 3px 5px #888888;">
+                                  </div>
+                                  <div style="padding-top: 20px" class="group">
+                                     <div style="text-align:left; float: left">
+                                       <h2>From&#58;</h2>
+                                       <h3>ELECTRONIC BANKING</h3>
+                                     </div>
+                                      <div style="text-align:left; float: right">
+                                        <h2>Amount&#58;</h2>
+                                        <h3>&#8358;6,000</h3>
+                                      </div>
+                                  </div>
+                                  <br>
+                                  <br>
+                                  <div style="text-align: left;">
+                                      <h2>Special Message:</h2>
+                                  </div>
+                                  <div style="text-align: left; border: 1px #000099 solid; width: 100%; min-height: 130px;margin-top: 10px;">
+                                    <p id="TextFieldTwo" contenteditable="true" style="padding:20px;"" class="curly">Happy Birthday</p>
+                                  </div >
+                                  <br>
+                                  <br>
+                                  <div style="text-align: left;">
+                                      <h2>Gift Card Code:</h2>
+                                  </div>
+                                  <div style="margin-top:8px;height: 70px; width: 45%; background-image:url('assets/img/barcode2.png'); background-size: cover;  background-position: center; background-color: #fff; line-height: 105px;">
+                                      <h3 class="vouchercode">13232439</h3>
+                                  </div>
+                                  <div style="text-align: left; padding-top: 7px;">
+                                       <small>Valid for One (1) year.</small>
+                                  </div>
+                                 
+                          </article>
+                  </div>
+
+            </section>
+
+
+        <footer>
+            <p>Visit www.suregifts.com.ng to see list of merchants &#x7c; For issues, please call 0700 SURE GIFTS</p>
+            <p>Terms and Conditions apply, please visit www.suregifts.com.ng/tandc &#x7c; hello&#64;suregifts.com.ng</p>
+        </footer>
+<!-- </div> -->
+    </body>
+
+</html>
